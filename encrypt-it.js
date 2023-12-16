@@ -24,7 +24,7 @@
 
 
       // Event listener for the "reset" button
-      document.getElementById("reset").addEventListener("click", handleClick);
+      document.getElementById("reset").addEventListener("click", handleReset);
 
       console.log("Window loaded!");
     }
