@@ -41,7 +41,7 @@
     function handleReset()
     {
       // Clear the input text area 
-      document.getElementalByID("input-text").value = "";
+      document.getElementByID("input-text").value = "";
 
       console.log("Reset Button Clicked");
     }
