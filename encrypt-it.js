@@ -22,6 +22,10 @@
       // Event listener for the "encrypt it" button
       document.getElementById("encrypt-it").addEventListener("click", handleClick);
 
+
+      // Event listener for the "reset" button
+      document.getElementById("reset").addEventListener("click", handleClick);
+
       console.log("Window loaded!");
     }
 
@@ -34,6 +38,13 @@
       console.log("Button Clicked");
     }
 
+    function handleReset()
+    {
+      // Clear the input text area 
+      document.getElementalByID("input-text").value = "";
+
+      console.log("Reset Button Clicked");
+    }
 
   }
 )();
